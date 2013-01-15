@@ -306,6 +306,12 @@ ul {
 }
 
 /* -------------------------------------------
+    CUSTOM
+    Your rules imported here!
+-------------------------------------------- */
+@import "_myrules";
+
+/* -------------------------------------------
 		PHONE
 		For clients that support media queries.
 		Nothing fancy.
@@ -325,9 +331,3 @@ ul {
     width: auto!important;
   }
 }
-
-/* -------------------------------------------
-    CUSTOM
-    Your rules imported here!
--------------------------------------------- */
-@import "_myrules";
