@@ -1,0 +1,2 @@
+cssselect==0.7.1
+premailer==1.12
