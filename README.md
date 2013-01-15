@@ -13,11 +13,15 @@ The first dependancy is compass (and sass of course). Typically, installation pr
 
 If you need more information about compass installation, please refer to its [documentation](http://compass-style.org/install/).
 
-### Python - Premailer
+### Python - Premailer (option)
 
-We choose to use a python tool as css-inliner for our templates. First, you need to install python, and create a virtualenv for this tool (please check the [virtualenvwrapper documentation](http://virtualenvwrapper.readthedocs.org/en/latest/)). Then, install all python dependancies with:
+A python CSS inliner is provided for your templates: we choose to integrate [premailer](https://github.com/peterbe/premailer). 
+
+Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the [virtualenvwrapper documentation](http://virtualenvwrapper.readthedocs.org/en/latest/)). Then, install all python dependancies with:
 
 	$ pip install -r requirements.txt
+	
+Once installed, activate the inliner by setting `use_css_inliner = true` in your `config.rb`.
 
 ## Usage
 

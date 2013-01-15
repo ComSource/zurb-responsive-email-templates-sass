@@ -23,7 +23,10 @@ if __name__ == '__main__':
     html_file.close()
 
     # Process HTML+CSS
-    p = Premailer(html=html, external_styles=args.css)
+    p = Premailer(html=html,
+                  external_styles=args.css,
+                  keep_style_tags=True,
+                  include_star_selectors=True)
 
     # Write output
     output_file = open(args.output, 'w')

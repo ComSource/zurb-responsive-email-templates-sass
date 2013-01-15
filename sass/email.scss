@@ -1,5 +1,5 @@
 /* -------------------------------------
-		GLOBAL
+        GLOBAL
 ------------------------------------- */
 
 * {
@@ -25,7 +25,7 @@ body {
 }
 
 /* -------------------------------------
-		ELEMENTS
+        ELEMENTS
 ------------------------------------- */
 
 a {
@@ -56,7 +56,7 @@ p.callout {
 }
 
 table.social {
-  /* 	padding:15px; */
+  /*    padding:15px; */
   background-color: #ebebeb;
 }
 
@@ -92,7 +92,7 @@ a {
 }
 
 /* -------------------------------------
-		HEADER
+        HEADER
 ------------------------------------- */
 
 table.head-wrap {
@@ -110,7 +110,7 @@ table.head-wrap {
 }
 
 /* -------------------------------------
-		BODY
+        BODY
 ------------------------------------- */
 
 table {
@@ -124,7 +124,7 @@ table {
 }
 
 /* -------------------------------------
-		FOOTER
+        FOOTER
 ------------------------------------- */
 
 .footer-wrap .container td.content p {
@@ -135,7 +135,7 @@ table {
 }
 
 /* -------------------------------------
-		TYPOGRAPHY
+        TYPOGRAPHY
 ------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -220,9 +220,9 @@ ul {
         text-decoration: none;
         color: #666;
         padding: 10px 16px;
-        /* 	font-weight:bold; */
+        /*  font-weight:bold; */
         margin-right: 10px;
-        /* 	text-align:center; */
+        /*  text-align:center; */
         cursor: pointer;
         border-bottom: 1px solid #777777;
         border-top: 1px solid #FFFFFF;
@@ -240,12 +240,12 @@ ul {
 }
 
 /* -------------------------------------
-		SIDEBAR
+        SIDEBAR
 ------------------------------------- */
 
 /* ---------------------------------------------------
-		RESPONSIVENESS
-		Nuke it from orbit. It's the only way to be sure.
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
 ------------------------------------------------------ */
 
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
@@ -312,9 +312,9 @@ ul {
 @import "_myrules";
 
 /* -------------------------------------------
-		PHONE
-		For clients that support media queries.
-		Nothing fancy.
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
   a[class="btn"] {
