@@ -4,12 +4,20 @@ At ComSource, we love [Sass](http://sass-lang.com/) and [compass](http://compass
 
 ## Installation
 
-The only dependancy is compass (and sass of course). Typically, installation process will looks like: 
+### Compass/Sass
+
+The first dependancy is compass (and sass of course). Typically, installation process will looks like: 
 
 	$ gem update --system
 	$ gem install compass
 
 If you need more information about compass installation, please refer to its [documentation](http://compass-style.org/install/).
+
+### Python - Premailer
+
+We choose to use a python tool as css-inliner for our templates. First, you need to install python, and create a virtualenv for this tool (please check the [virtualenvwrapper documentation](http://virtualenvwrapper.readthedocs.org/en/latest/)). Then, install all python dependancies with:
+
+	$ pip install -r requirements.txt
 
 ## Usage
 
@@ -22,5 +30,7 @@ If you want to add your own rules to override default styles, all you need is to
 	@import "myrules";
 
 A sample file `sass/_myrules.scss` as been integrated as a demo.
+
+By default, compiled templates are stored in the `templates-inline` directory.
 
 Have fun!
